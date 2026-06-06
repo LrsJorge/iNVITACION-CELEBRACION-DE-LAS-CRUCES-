@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alba Chancayllo 2026</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h2 class="sr-only">Invitación interactiva para el Alba de las Santísimas Cruces de Chancayllo 2026, organizado por Juan Carlos La Rosa Andrade</h2>
+
+<div class="wrap">
+
+<div class="portada">
+  <div id="stars-c"></div>
+
+  <div class="decor-row">
+    <span class="cruz-deco" onclick="animCruz(this)">✝</span>
+    <div>
+      <div class="sub-evento">Festividad de las Santísimas Cruces de Chancayllo</div>
+      <div class="t-main" onclick="boom()">EL ALBA</div>
+      <div class="t-year">· 2026 ·</div>
+      <div class="sep">✦ ✦ ✦</div>
+    </div>
+    <span class="cruz-deco" onclick="animCruz(this)">✝</span>
+  </div>
+
+  <div class="flores">
+    <span class="flor" onclick="animFlor(this)">🌹</span>
+    <span class="flor" onclick="animFlor(this)">🕯️</span>
+    <span class="flor" onclick="animFlor(this)">🌺</span>
+    <span class="flor" onclick="animFlor(this)">✨</span>
+    <span class="flor" onclick="animFlor(this)">🌸</span>
+    <span class="flor" onclick="animFlor(this)">🕯️</span>
+    <span class="flor" onclick="animFlor(this)">🌹</span>
+  </div>
+
+  <div class="org-box">
+    <div class="org-lbl">Organizado por</div>
+    <div class="org-row">
+      <div class="org-av">👴</div>
+      <div>
+        <div class="org-nombre">✦ Juan Carlos La Rosa Andrade ✦</div>
+        <div class="org-sub">junto a familiares, amigos y acompañantes<br>que con su dedicación honran esta tradición centenaria</div>
+        <div class="org-badge">Familia La Rosa — Guardiana del Alba desde 1886</div>
+      </div>
+    </div>
+    <div class="org-lugar">📍 Chancayllo · Chancay · Huaral · Lima — Sábado 20 de Junio 2026</div>
+  </div>
+
+  <div class="fuegos-z" id="fuegos"></div>
+</div>
+
+<div class="tabs">
+  <button class="tab on" onclick="tab('hist',this)">📜 Historia</button>
+  <button class="tab" onclick="tab('crono',this)">📆 Cronograma</button>
+  <button class="tab" onclick="tab('prog',this)">⏰ Programa</button>
+  <button class="tab" onclick="tab('cruces',this)">✝ Las 13 Cruces</button>
+  <button class="tab" onclick="tab('gal',this)">📷 Galería</button>
+  <button class="tab" onclick="tab('cnt',this)">⏳ Cuenta regresiva</button>
+</div>
+
+<div id="hist" class="panel on">
+  <div class="stitle">Historia de la Festividad de las Santísimas Cruces de Chancayllo</div>
+  <div class="htexto">
+    <div class="hdato">📅 Más de 130 años de tradición ininterrumpida — desde aproximadamente 1886</div>
+
+    La Festividad de las Santísimas Cruces de Chancayllo es una de las celebraciones religiosas y culturales más antiguas y arraigadas del distrito de Chancay, en la provincia de Huaral, Lima. Esta conmemoración gira en torno a <strong style="color:#f0abfc">13 cruces sagradas</strong>, cada una con su propia historia y narrativa única, representando a los diferentes centros poblados de la zona.
+
+    <div class="hdato">¿Por qué en junio y no en mayo como el resto del país? La Hacienda de Chancayllo estuvo dedicada durante mucho tiempo al cultivo de algodón. Los yanacones — trabajadores agrarios que laboraban las tierras — no recibían su pago hasta el término de las cosechas, que ocurría en junio. Por eso la fiesta se fijó en ese mes, y así se ha mantenido hasta hoy.</div>
+
+    Desde que estas tierras fueron encomendadas a españoles provenientes de la Villa de Arnedo en 1562, las tradiciones evangelizadoras fueron mezclándose con las costumbres locales. Con el tiempo, la celebración fue creciendo y atrayendo no solo a los residentes de Chancayllo, sino a peregrinos y visitantes de diversas regiones, quienes participan en las procesiones, los actos religiosos, sociales y culturales.
+
+    <div class="hdato">En el año 2002, el diario La República dedicó 4 páginas a la festividad en su suplemento "Andares". El programa de TV Costumbres también realizó una cobertura completa, evidenciando su trascendencia a nivel nacional.</div>
+
+    Cada cruz es representada por una subcomisión encargada de organizarla y adornarla. Los devotos donan sábanas y listones bordados año tras año, renovando la vestimenta de cada Santo Madero. La Comisión Central coordina a todas las subcomisiones e invita a cada una a traer su cruz a la celebración.
+
+    <div class="hdato">🏆 Reconocimiento oficial: Decreto de Alcaldía N° 010-2022-MDCH del 16 de junio de 2022 — la Municipalidad Distrital de Chancay institucionalizó formalmente la festividad.</div>
+
+    El <strong style="color:#f0abfc">Alva de 4</strong> — el inicio de la madrugada festiva — ha sido realizado históricamente por la familia La Rosa. Este año 2026, el honor recae en <strong style="color:#f0abfc">Juan Carlos La Rosa Andrade</strong>, quien junto a familiares, allegados y personas comprometidas con esta tradición, mantiene encendida la llama de esta celebración centenaria.
+
+    <div class="htl">
+      <div class="tl-item"><div class="tl-y">1562</div><div class="tl-t">Las tierras de Chancayllo se encomiendan a españoles de la Villa de Arnedo, quienes traen sus costumbres evangelizadoras.</div></div>
+      <div class="tl-item"><div class="tl-y">1886</div><div class="tl-t">Primera referencia registrada de la Cruz de San José, la más antigua. La festividad comienza a tomar forma oficial.</div></div>
+      <div class="tl-item"><div class="tl-y">1920</div><div class="tl-t">Se integra la Cruz de Arenillas. Junto a San José y los Pescadores forman el núcleo original de la celebración.</div></div>
+      <div class="tl-item"><div class="tl-y">1950s</div><div class="tl-t">Ingresa la Cruz de San Cayetano. Los bailes se hacían en el colegio antiguo; la cerveza llegaba en barriles y se repartía gratuitamente.</div></div>
+      <div class="tl-item"><div class="tl-y">1979</div><div class="tl-t">Se incorpora la Cruz de La Candelaria, marcando una nueva etapa de crecimiento para la festividad.</div></div>
+      <div class="tl-item"><div class="tl-y">1988–89</div><div class="tl-t">Ingresan las cruces de Nazareno y de La Capilla, ampliando la familia a más de 10 cruces activas.</div></div>
+      <div class="tl-item"><div class="tl-y">2001</div><div class="tl-t">La Cruz de San Pedro se une a la celebración. Su Santo Madero fue donado por la subcomisión de Candelaria.</div></div>
+      <div class="tl-item"><div class="tl-y">2022</div><div class="tl-t">La Municipalidad de Chancay institucionaliza oficialmente la festividad mediante Decreto de Alcaldía.</div></div>
+      <div class="tl-item"><div class="tl-y">2026</div><div class="tl-t">Juan Carlos La Rosa Andrade organiza el Alba, continuando el legado familiar que la familia La Rosa sostiene desde los orígenes de la festividad.</div></div>
+    </div>
+  </div>
+</div>
+
+<div id="crono" class="panel">
+  <div class="stitle">Cronograma completo de la festividad</div>
+  <div class="ssub">La festividad dura 4 días — comienza el tercer viernes de junio y culmina el martes siguiente</div>
+
+  <div class="crono-item">
+    <div class="crono-dia">Viernes 19 de junio — El Alba</div>
+    <div class="crono-act"><div class="crono-ico">🕙</div><div class="crono-txt"><div class="crono-t">10:00 PM — Inicio del Alba con la familia La Rosa</div><div class="crono-d">La familia La Rosa Andrade da inicio a la madrugada encendiendo velas ante los Santos Maderos de cada centro poblado. Este acto sagrado marca el comienzo oficial de la festividad y honra la tradición que data de 1886.</div></div></div>
+    <div class="crono-act"><div class="crono-ico">🎶</div><div class="crono-txt"><div class="crono-t">Noche — Música, baile y homenajes</div><div class="crono-d">Banda y orquesta en vivo animan la madrugada con música folclórica tradicional. El pueblo baila, brinda y rinde homenaje a las Santísimas Cruces. Momentos de confraternidad entre devotos, visitantes y organizadores.</div></div></div>
+    <div class="crono-act"><div class="crono-ico">🎆</div><div class="crono-txt"><div class="crono-t">4:00 AM — El gran Alva de 4</div><div class="crono-d">Quema de cohetes y avellanas que estremece el cielo de Chancayllo. Las explosiones despiertan a todo el pueblo anunciando el amanecer del día central. Es el momento más esperado de la madrugada.</div></div></div>
+    <div class="crono-act"><div class="crono-ico">🐓</div><div class="crono-txt"><div class="crono-t">5:00 AM — El tradicional aguadito de gallo</div><div class="crono-d">Plato emblema del cierre del Alba. El aguadito de gallo reconforta el cuerpo y el alma tras la noche de celebración. Una costumbre inseparable de esta festividad que se repite año tras año.</div></div></div>
+  </div>
+
+  <div class="crono-item">
+    <div class="crono-dia">Sábado 20 de junio — Víspera de fiesta</div>
+    <div class="crono-act"><div class="crono-ico">🌅</div><div class="crono-txt"><div class="crono-t">Mañana — Actividades de preparación</div><div class="crono-d">El pueblo se prepara para el día grande. Las subcomisiones adornan y alistan sus cruces para la procesión. Se instalan los palcos y arreglos en la plaza central.</div></div></div>
+    <div class="crono-act"><div class="crono-ico">🎪</div><div class="crono-txt"><div class="crono-t">Tarde — Gran verbena show</div><div class="crono-d">La plaza central de Chancayllo se llena de vida con artistas, cantantes, cómicos y orquestas nacionales que vienen desde la capital. Paralelamente, grandes bailes en los locales principales de la localidad.</div></div></div>
+    <div class="crono-act"><div class="crono-ico">⛪</div><div class="crono-txt"><div class="crono-t">7:00 PM — Santa Misa de víspera</div><div class="crono-d">Celebración eucarística de víspera en honor a las Santísimas Cruces de Chancayllo, con la participación de los fieles devotos y visitantes llegados de diversas regiones.</div></div></div>
+    <div class="crono-act"><div class="crono-ico">🎇</div><div class="crono-txt"><div class="crono-t">11:30 PM — Quema del castillo pirotécnico</div><div class="crono-d">El castillo pirotécnico de 10 pisos ilumina el cielo de Chancayllo. Este espectáculo de fuego y luz es uno de los momentos más esperados por propios y visitantes.</div></div></div>
+  </div>
+
+  <div class="crono-item">
+    <div class="crono-dia">Domingo 21 de junio — Día central</div>
+    <div class="crono-act"><div class="crono-ico">🏫</div><div class="crono-txt"><div class="crono-t">Mañana — Gran desfile escolar</div><div class="crono-d">Desfile cívico a cargo de la Institución Educativa Daniel Alcides Carrión y colegios invitados. Bailes tradicionales como la marinera adornan el recorrido por las calles principales.</div></div></div>
+    <div class="crono-act"><div class="crono-ico">⛪</div><div class="crono-txt"><div class="crono-t">Mediodía — Misa central de fiestas</div><div class="crono-d">La liturgia central de la festividad, seguida por la procesión de las 13 cruces por las calles principales del pueblo, acompañadas de bandas de música y devotos.</div></div></div>
+    <div class="crono-act"><div class="crono-ico">⚽</div><div class="crono-txt"><div class="crono-t">Tarde — Actividades deportivas y sociales</div><div class="crono-d">Tarde deportiva y bailes en el local comunal. La festividad combina lo religioso con lo social y comunitario, fortaleciendo los lazos entre los habitantes del pueblo.</div></div></div>
+    <div class="crono-act"><div class="crono-ico">🎇</div><div class="crono-txt"><div class="crono-t">Noche — Segundo castillo pirotécnico</div><div class="crono-d">Quema de otro castillo pirotécnico de 10 cuerpos para cerrar el día central con todo el esplendor que merece la festividad.</div></div></div>
+  </div>
+
+  <div class="crono-item">
+    <div class="crono-dia">Lunes 22 de junio — Despedida de las cruces</div>
+    <div class="crono-act"><div class="crono-ico">🎺</div><div class="crono-txt"><div class="crono-t">Mañana — Choque de bandas</div><div class="crono-d">Bandas de diversas partes del país se reúnen para acompañar a cada cruz en su despedida. Es uno de los momentos más emotivos y coloridos de toda la festividad.</div></div></div>
+    <div class="crono-act"><div class="crono-ico">✝</div><div class="crono-txt"><div class="crono-t">Tarde — Misa de despedida y procesión final</div><div class="crono-d">Encabeza la procesión la Cruz de San José (la más antigua), seguida por San Cayetano, la Candelaria, 4 de Junio, El Nazareno y Los Gladiolos. La Comisión Central acompaña a cada cruz a su lugar de reposo.</div></div></div>
+  </div>
+
+  <div class="crono-item">
+    <div class="crono-dia">Martes 23 de junio — Cierre en Río Seco</div>
+    <div class="crono-act"><div class="crono-ico">🌊</div><div class="crono-txt"><div class="crono-t">11:00 AM — Traslado a Río Seco</div><div class="crono-d">Las cruces de Arenillas, Pescadores de Huacho, Chancay y Chancayllo son llevadas a su lugar de reposo en la playa de Río Seco. Una peregrinación de aproximadamente 2 horas con devotos y público en general.</div></div></div>
+    <div class="crono-act"><div class="crono-ico">🗳️</div><div class="crono-txt"><div class="crono-t">Tarde — Elección de la nueva Comisión</div><div class="crono-d">Se elige la nueva Comisión Central que organizará la festividad del próximo año, asegurando la continuidad de esta tradición centenaria para las generaciones venideras.</div></div></div>
+  </div>
+</div>
+
+<div id="prog" class="panel">
+  <div class="stitle">Programa del Alba — Viernes 19 al Sábado 20 de junio 2026</div>
+  <div class="prog-list">
+    <div class="prog-item">
+      <div class="prog-hw"><div class="prog-hora">10:00 PM</div><div class="prog-dia">Vie. 19 Jun</div></div>
+      <div class="prog-ico">🕯️</div>
+      <div class="prog-body">
+        <div class="prog-t">Apertura del Alba — Ofrenda de velas a los Santos Maderos</div>
+        <div class="prog-d">La familia La Rosa Andrade encabeza la ceremonia de encendido de velas ante cada Santo Madero (cruz) representante de los centros poblados. Momento solemne que da inicio oficial a la celebración.</div>
+        <span class="prog-tag">Tradición familiar La Rosa desde 1886</span>
+      </div>
+    </div>
+    <div class="prog-item">
+      <div class="prog-hw"><div class="prog-hora">10:30 PM</div><div class="prog-dia">Vie. 19 Jun</div></div>
+      <div class="prog-ico">🎶</div>
+      <div class="prog-body">
+        <div class="prog-t">Música y baile — Banda y orquesta en vivo</div>
+        <div class="prog-d">Agrupaciones musicales en vivo animan la madrugada con repertorio folclórico y tradicional. La plaza se llena de vida mientras devotos y visitantes bailan en honor a las Santísimas Cruces.</div>
+        <span class="prog-tag">Banda / Orquesta en vivo</span>
+      </div>
+    </div>
+    <div class="prog-item">
+      <div class="prog-hw"><div class="prog-hora">Madrugada</div><div class="prog-dia">Previas</div></div>
+      <div class="prog-ico">🥂</div>
+      <div class="prog-body">
+        <div class="prog-t">Homenaje y brindis — Reconocimiento a los colaboradores</div>
+        <div class="prog-d">Homenaje a las Santísimas Cruces y brindis en honor a Juan Carlos La Rosa Andrade y a todos quienes contribuyeron con su esfuerzo, tiempo y entrega para hacer posible esta celebración.</div>
+        <span class="prog-tag">Reconocimiento a quienes hicieron posible el Alba</span>
+      </div>
+    </div>
+    <div class="prog-item">
+      <div class="prog-hw"><div class="prog-hora">4:00 AM</div><div class="prog-dia">Sáb. 20 Jun</div></div>
+      <div class="prog-ico">🎆</div>
+      <div class="prog-body">
+        <div class="prog-t">¡El gran Alva de 4! — Cohetes y avellanas</div>
+        <div class="prog-d">El cielo de Chancayllo estalla con la quema de cohetes y avellanas, despertando a todo el pueblo. Las explosiones anuncian el amanecer del día central de la festividad. El momento más esperado de la noche.</div>
+        <span class="prog-tag">Tradición centenaria</span>
+        <br>
+        <button class="btn" style="margin-top:8px;font-size:.75rem;padding:7px" onclick="boom()">🎆 ¡Reventar cohetes ahora!</button>
+      </div>
+    </div>
+    <div class="prog-item">
+      <div class="prog-hw"><div class="prog-hora">5:00 AM</div><div class="prog-dia">Sáb. 20 Jun</div></div>
+      <div class="prog-ico">🐓</div>
+      <div class="prog-body">
+        <div class="prog-t">El tradicional aguadito de gallo — para levantar a los muertos</div>
+        <div class="prog-d">El cierre más esperado: el aguadito de gallo, plato emblemático que reconforta el cuerpo y el ánimo tras la noche de festividad. Una costumbre inseparable del Alba de Chancayllo que se repite generación tras generación.</div>
+        <span class="prog-tag">El aguadito de gallo 🐓</span>
+      </div>
+    </div>
+    <div class="prog-item">
+      <div class="prog-hw"><div class="prog-hora">6:00 AM</div><div class="prog-dia">Sáb. 20 Jun</div></div>
+      <div class="prog-ico">🌅</div>
+      <div class="prog-body">
+        <div class="prog-t">Cierre del Alba — Amanece Chancayllo</div>
+        <div class="prog-d">El sol sale sobre Chancayllo mientras el pueblo descansa y se prepara para el gran día central. La tradición sigue viva gracias a familias comprometidas como la familia La Rosa Andrade.</div>
+        <span class="prog-tag">Fin del Alba 2026</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="cruces" class="panel">
+  <div class="stitle">Las 13 Santísimas Cruces de Chancayllo</div>
+  <div class="cstats">
+    <div class="cstat"><div class="cstat-n">13</div><div class="cstat-l">Cruces</div></div>
+    <div class="cstat"><div class="cstat-n">+130</div><div class="cstat-l">Años</div></div>
+    <div class="cstat"><div class="cstat-n">1886</div><div class="cstat-l">Origen</div></div>
+    <div class="cstat"><div class="cstat-n">Jun</div><div class="cstat-l">Mes</div></div>
+  </div>
+  <div class="ssub">Selecciona cada cruz para conocer su historia</div>
+  <div class="cinfo" id="cinfo" style="display:none"></div>
+  <div class="cg" id="cg"></div>
+  <div class="hdato" style="margin-top:8px">Cada cruz es adornada con sábanas y listones bordados donados por los devotos cada año. Las subcomisiones traen sus cruces a partir del 15 de mayo para el homenaje respectivo.</div>
+</div>
+
+<div id="gal" class="panel">
+  <div class="stitle">Galería de la festividad</div>
+  <div class="ssub">Toca cada imagen para ver más detalles</div>
+  <div class="gbig" id="gbig"><div class="gbig-i" id="gbi"></div><div class="gbig-t" id="gbt"></div></div>
+  <div class="gal" id="gg"></div>
+  <div class="hdato" style="margin-top:8px">La festividad fue cubierta por el diario La República (2002) y el programa de TV Costumbres, destacando su trascendencia a nivel nacional.</div>
+</div>
+
+<div id="cnt" class="panel">
+  <div class="stitle">Cuenta regresiva al Alba</div>
+  <div class="cnt-msg">Viernes 19 de Junio 2026 — 10:00 PM · Chancayllo, Chancay</div>
+  <div class="cnt-d">
+    <div class="cnt-b"><div class="cnt-n" id="cd">--</div><div class="cnt-l">Días</div></div>
+    <div class="cnt-b"><div class="cnt-n" id="ch">--</div><div class="cnt-l">Horas</div></div>
+    <div class="cnt-b"><div class="cnt-n" id="cm">--</div><div class="cnt-l">Min</div></div>
+    <div class="cnt-b"><div class="cnt-n" id="cs">--</div><div class="cnt-l">Seg</div></div>
+  </div>
+  <div style="text-align:center;font-size:2rem;letter-spacing:8px;margin:10px 0">🕯️ ✦ ✝ ✦ 🕯️</div>
+  <div class="cnt-msg">"La familia La Rosa enciende las primeras velas en honor a las Santísimas Cruces de Chancayllo"</div>
+  <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin:10px 0">
+    <div class="prog-item"><div class="prog-ico">🕯️</div><div class="prog-body"><div class="prog-t" style="font-size:.72rem">Ofrenda de velas</div><div class="prog-d">A los Santos Maderos</div></div></div>
+    <div class="prog-item"><div class="prog-ico">🎶</div><div class="prog-body"><div class="prog-t" style="font-size:.72rem">Banda en vivo</div><div class="prog-d">Música toda la noche</div></div></div>
+    <div class="prog-item"><div class="prog-ico">🎆</div><div class="prog-body"><div class="prog-t" style="font-size:.72rem">Cohetes a las 4 AM</div><div class="prog-d">El cielo explota</div></div></div>
+    <div class="prog-item"><div class="prog-ico">🐓</div><div class="prog-body"><div class="prog-t" style="font-size:.72rem">Aguadito de gallo</div><div class="prog-d">El cierre del Alba</div></div></div>
+  </div>
+  <button class="btn" onclick="boom()">🎆 ¡Anticipar el festejo!</button>
+</div>
+
+<div class="nota">✦ Toca "EL ALBA" para celebrar · Explora las 6 secciones · Toca las cruces para conocer su historia ✦</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
